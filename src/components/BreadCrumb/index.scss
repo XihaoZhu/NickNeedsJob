@@ -3,13 +3,15 @@
 .BreadCrumb {
   height: 3vw;
   .breadcrumb {
+    z-index: 100;
     position: fixed;
     width: 100%;
-    background-color: rgb(79, 83, 92, 0.2);
+    background-color: rgb(131, 138, 153);
     height: 3vw;
     padding: 1vw 2vw;
     line-height: 1.2;
     justify-content: flex-end;
+    border-bottom: solid rgb(39, 54, 62) 0.1vw;
     .breadcrumb-item {
       border: 0.15vw solid black;
       padding: 0 1vw;
