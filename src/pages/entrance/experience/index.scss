@@ -1,4 +1,107 @@
 .Experience {
-  height: 700px;
-  background-color: blueviolet;
+  display: flex;
+  // background-color: blueviolet;
+  justify-content: space-around;
+  padding: 0 10vw 0;
+  margin-bottom: 2.5vw;
+  .left {
+    border-radius: 3vw;
+    background-color: rgba(132,133,135, 0.8);
+    width: 35vw;
+    height: 40vw;
+    cursor: pointer;
+    img {
+      position: absolute;
+      left: 23vw;
+      width: 12vw;
+      transition: all 0.5s;
+    }
+    .EducationHistory {
+      height: 30vw;
+      position: relative;
+      top: 8vw;
+      background-size: contain;
+      transition: all 1s;
+      text-align: center;
+      padding-top: 7.5vw;
+      opacity: 0.8;
+      font-size: 2vw;
+      font-weight: 600;
+      text-shadow: 0 -0.1vw white;
+      background-image: url('../../../assets/images/light.png');
+      background-size: contain;
+      span {
+        color: white;
+        text-shadow: 
+        0 -0.1vw black,
+        0 0.1vw black,
+        0.1vw 0 black,
+        -0.1vw 0 black;
+      }
+    }
+    .EduTitle {
+      float: left;
+      margin-left: 11vw;
+      margin-top: -10vw;
+      border: dashed black 0.2vw;
+      border-radius: 1vw;
+      padding: 1vw;
+      font-size: 2vw;
+      font-weight: 600;
+      text-shadow: 0 -0.1vw white;
+    }
+  }
+
+  .middle {
+    border-right: 0.1vw dashed rgb(0, 0, 0,0.6);
+  }
+
+  .right {
+    border-radius: 3vw;
+    background-color: rgba(132,133,135, 0.8);
+    width: 35vw;
+    height: 40vw;
+    cursor: pointer;
+    img {
+      position: absolute;
+      right: 23vw;
+      width: 12vw;
+      transition: all 0.5s;
+      cursor: pointer;
+    }
+    .InternHistory {
+      height: 30vw;
+      position: relative;
+      top: 8vw;
+      background-size: contain;
+      transition: all 1s;
+      text-align: center;
+      padding-top: 7.5vw;
+      opacity: 0.8;
+      font-size: 2vw;
+      font-weight: 600;
+      text-shadow: 0 -0.1vw white;
+      background-image: url('../../../assets/images/light.png');
+      background-size: contain;
+      span {
+        color: white;
+        text-shadow: 
+        0 -0.1vw black,
+        0 0.1vw black,
+        0.1vw 0 black,
+        -0.1vw 0 black;
+      }
+    }
+    .InternTitle {
+      float: left;
+      margin-left: 11vw;
+      margin-top: -10vw;
+      border: dashed black 0.2vw;
+      border-radius: 1vw;
+      padding: 1vw;
+      font-size: 2vw;
+      font-weight: 600;
+      text-shadow: 0 -0.1vw white;
+    }
+  }
 }

@@ -8,7 +8,7 @@ import CoreSkills from './coreSkills'
 
 const Entrance = () => {
   return (
-  <div>
+  <div style={{ backgroundColor: 'rgb(218,227,230,0.25)' }}>
     <BreadCrumb/>
     <Title/>
     <Experience/>
