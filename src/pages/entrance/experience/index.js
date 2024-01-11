@@ -23,9 +23,9 @@ const Experience = () => {
   return (
     <div className='Experience'>
       {/* left side */}
-      <div className='left'>
+      <div className='left' onClick={() => turnLightOn(1)}>
         {/* lights on or off */}
-        <img onClick={() => turnLightOn(1)} src={require('../../../assets/images/bulb.png')} style={{ top: isOn === 1 ? '47vw' : '46vw' }}></img>
+        <img src={isOn === 1 ? require('../../../assets/images/bulb.png') : require('../../../assets/images/bulbOff.png')} style={{ top: isOn === 1 ? '47vw' : '46vw' }}></img>
         {/* when the other light on and hovered on key words */}
         <div className='extraIntern' style={{ opacity: whichKeyword[2] }}>
           Telemarketing:<br/>
@@ -63,9 +63,9 @@ const Experience = () => {
       </div>
       <div className='middle'></div>
       {/* right side */}
-      <div className='right'>
+      <div className='right' onClick={() => turnLightOn(2)}>
         {/* light on or off */}
-        <img onClick={() => turnLightOn(2)} src={require('../../../assets/images/bulb.png')} style={{ top: isOn === 2 ? '47vw' : '46vw' }}></img>
+        <img src={isOn === 2 ? require('../../../assets/images/bulb.png') : require('../../../assets/images/bulbOff.png')} style={{ top: isOn === 2 ? '47vw' : '46vw' }}></img>
         {/* when the other light on and hovered on key words */}
         <div className='extraIntern' style={{ opacity: whichKeyword[0] }}>
           Undergranduate:<br/>

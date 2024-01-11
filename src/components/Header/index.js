@@ -1,9 +1,8 @@
 import './index.scss'
 import React, { useState } from 'react'
-import 'bootstrap/dist/js/bootstrap.js'
 import classNames from 'classnames'
 
-const BreadCrumb = () => {
+const Head = () => {
 // Name of the tiltles
   const titles = [
     'Start',
@@ -20,15 +19,13 @@ const BreadCrumb = () => {
   // Click to scroll to the right location
 
   return (
-    <div className='BreadCrumb'>
-    <nav aria-label="breadcrumb">
-      <ol className="breadcrumb">
-        {titles.map((item, index) => <li className={classNames('breadcrumb-item', { 'nick-active': index === NickActive })} key={index} onClick={() => changeActive(index)}>{item}</li>
+    <div className='Header'>
+      <ol className="header">
+        {titles.map((item, index) => <li className={classNames('header-item', { 'nick-active': index === NickActive })} key={index} onClick={() => changeActive(index)}>{item}</li>
         )}
       </ol>
-    </nav>
     </div>
   )
 }
 
-export default BreadCrumb
+export default Head
