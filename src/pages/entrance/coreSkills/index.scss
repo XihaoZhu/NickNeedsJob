@@ -1,4 +1,47 @@
 .CoreSkills {
-  height: 700px;
-  background-color: greenyellow;
+  height: 35vw;
+  margin-bottom: 2vw;
+  .container {
+    height: 35vw;
+    width: 78vw;
+    display: flex;
+    gap: 2vw;
+    flex: 5 1;
+    justify-content: space-between;
+    .FrontEnd {
+      background-image: url('../../../assets/images/LogoSlide.png');
+      background-size: cover;
+      flex: 1 1;
+      border: 0.1vw solid black;
+      border-radius: 2vw;
+    }
+    .Blender {
+      flex: 1 1;
+      background-image: url('../../../assets/images/blenderSlide.png');
+      background-size: cover;
+      background-color: white;
+      border: 0.1vw solid rgb(255, 255, 255);
+      border-radius: 2vw;
+    }
+    .Photoshop {
+      flex: 1 1;
+      background-image: url('../../../assets/images/PsBlade.png');
+      background-size: cover;
+      border: 0.1vw solid black;
+      border-radius: 2vw;
+    }
+    .Others {
+      flex: 1 1;
+      background-image: url('../../../assets/images/OthersSlide.png');
+      background-size: cover;
+      border: 0.1vw solid rgb(255, 255, 255);
+      border-radius: 2vw;
+    }
+    div:hover {
+      transform: scale(1.05);
+      transition: all 0.5s;
+      box-shadow: -0.5vw 0.5vw 0.5vw black;
+      cursor: pointer;
+    }
+  }
 }

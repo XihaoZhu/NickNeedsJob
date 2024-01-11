@@ -23,7 +23,7 @@ const Experience = () => {
   return (
     <div className='Experience'>
       {/* left side */}
-      <div className='left' onClick={() => turnLightOn(1)}>
+      <div className='left' onClick={(e) => turnLightOn(1)}>
         {/* lights on or off */}
         <img src={isOn === 1 ? require('../../../assets/images/bulb.png') : require('../../../assets/images/bulbOff.png')} style={{ top: isOn === 1 ? '47vw' : '46vw' }}></img>
         {/* when the other light on and hovered on key words */}

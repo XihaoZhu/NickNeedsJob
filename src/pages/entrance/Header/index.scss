@@ -7,12 +7,13 @@
     z-index: 100;
     position: fixed;
     width: 100%;
-    background-color: rgb(131, 138, 153);
+    background-color: rgb(178, 187, 206);
     height: 3vw;
     padding: 0.75vw 2vw;
     line-height: 1;
-    border-bottom: solid rgb(39, 54, 62) 0.1vw;
+    border-bottom: solid rgb(255, 255, 255) 0.1vw;
     text-align: end;
+    border-radius: 0 0 1vw 1vw;
     .header-item {
       list-style: none;
       display: inline-block;

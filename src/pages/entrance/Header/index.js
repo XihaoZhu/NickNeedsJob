@@ -17,11 +17,14 @@ const Head = () => {
   }
 
   // Click to scroll to the right location
+  function scrollTo (e) {
+    console.log(e)
+  }
 
   return (
     <div className='Header'>
       <ol className="header">
-        {titles.map((item, index) => <li className={classNames('header-item', { 'nick-active': index === NickActive })} key={index} onClick={() => changeActive(index)}>{item}</li>
+        {titles.map((item, index) => <li className={classNames('header-item', { 'nick-active': index === NickActive })} key={index} onClick={(e) => { changeActive(index); scrollTo(e) }}>{item}</li>
         )}
       </ol>
     </div>
