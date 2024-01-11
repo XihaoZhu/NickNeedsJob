@@ -6,15 +6,30 @@
   margin-bottom: 2.5vw;
   .left {
     border-radius: 3vw;
-    background-color: rgba(132,133,135, 0.8);
+    background-color: rgba(132,133,135);
     width: 35vw;
     height: 40vw;
-    cursor: pointer;
     img {
+      z-index: 2;
       position: absolute;
       left: 23vw;
       width: 12vw;
       transition: all 0.5s;
+      cursor: pointer;
+    }
+    .extraIntern{
+      position: absolute;
+      height: 30vw;
+      width: 35vw;
+      padding: 5vw;
+      top: 55vw;
+      font-size: 1.5vw;
+      text-align: center;
+      align-items: center;
+      background-color: rgba(132,133,135);
+      transition: all 0.5s;
+      font-weight: 800;
+      text-shadow: 0 0.1vw rgb(255, 255, 255,0.5);
     }
     .EducationHistory {
       height: 30vw;
@@ -58,16 +73,30 @@
 
   .right {
     border-radius: 3vw;
-    background-color: rgba(132,133,135, 0.8);
+    background-color: rgba(132,133,135);
     width: 35vw;
     height: 40vw;
-    cursor: pointer;
     img {
+      z-index: 2;
       position: absolute;
       right: 23vw;
       width: 12vw;
       transition: all 0.5s;
       cursor: pointer;
+    }
+    .extraIntern{
+      position: absolute;
+      height: 30vw;
+      width: 35vw;
+      padding: 5vw;
+      top: 55vw;
+      font-size: 1.5vw;
+      text-align: center;
+      align-items: center;
+      background-color: rgba(132,133,135);
+      transition: all 0.5s;
+      font-weight: 800;
+      text-shadow: 0 0.1vw rgb(255, 255, 255,0.5);
     }
     .InternHistory {
       height: 30vw;
@@ -84,6 +113,7 @@
       background-image: url('../../../assets/images/light.png');
       background-size: contain;
       span {
+        cursor: pointer;
         color: white;
         text-shadow: 
         0 -0.1vw black,
@@ -91,6 +121,7 @@
         0.1vw 0 black,
         -0.1vw 0 black;
       }
+
     }
     .InternTitle {
       float: left;

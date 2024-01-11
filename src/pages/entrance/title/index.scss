@@ -30,11 +30,14 @@
     color: rgb(226, 238, 239);
     a {
       text-decoration: none; 
-      color: inherit;
       font-weight: 800;
       font-size: 2vw;
-      text-shadow:
-       -2px -2px 0 #657674,
+      color: black;
+      text-shadow: 
+      0 -0.1vw white,
+      0 0.1vw white,
+      0.1vw 0 white,
+      -0.1vw 0 white;
       }
     }  
   }
