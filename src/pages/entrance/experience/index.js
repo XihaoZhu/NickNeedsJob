@@ -1,7 +1,7 @@
 import './index.scss'
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
-const Experience = () => {
+const Experience = ({ offerWhere1, windowWidth }) => {
   // control the lights
   const [isOn, setIsOn] = useState(0)
   function turnLightOn (whichOne) {
@@ -20,8 +20,14 @@ const Experience = () => {
     console.log(whichKeyword)
   }
 
+  // get the dom and pass the height
+  const Exp = useRef(null)
+  useEffect(() => {
+    offerWhere1(Exp.current.offsetTop)
+  }, [windowWidth])
+
   return (
-    <div className='Experience'>
+    <div className='Experience' ref={Exp}>
       {/* left side */}
       <div className='left' onClick={(e) => turnLightOn(1)}>
         {/* lights on or off */}

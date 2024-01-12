@@ -1,8 +1,8 @@
 import './index.scss'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import classNames from 'classnames'
 
-const Head = () => {
+const Head = ({ where1, where2 }) => {
 // Name of the tiltles
   const titles = [
     'Start',
@@ -15,6 +15,24 @@ const Head = () => {
   function changeActive (number) {
     setNickActive(number)
   }
+
+  // auto active at places
+  useEffect(() => {
+    function handleScroll () {
+      switch (true) {
+        case window.scrollY < 0.8 * where1:
+          setNickActive(0)
+          break
+        case window.scrollY >= 0.8 * where2:
+          setNickActive(2)
+          break
+        case window.scrollY >= 0.8 * where1:
+          setNickActive(1)
+          break
+      }
+    }
+    window.addEventListener('scroll', handleScroll)
+  }, [where1, where2])
 
   // Click to scroll to the right location
   function scrollTo (e) {

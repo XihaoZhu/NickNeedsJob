@@ -1,9 +1,14 @@
 import './index.scss'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 
-const CoreSkills = () => {
+const CoreSkills = ({ offerWhere2, windowWidth }) => {
+  // get the dom and pass the height
+  const Core = useRef(null)
+  useEffect(() => {
+    offerWhere2(Core.current.offsetTop)
+  }, [windowWidth])
   return (
-    <div className='CoreSkills'>
+    <div className='CoreSkills' ref={Core}>
       <div className='container'>
         <div className='FrontEnd'></div>
         <div className='Blender'></div>
