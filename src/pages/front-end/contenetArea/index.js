@@ -7,10 +7,8 @@ const ContentArea = ({ whichOne }) => {
       title: 'My study history for Front End.',
       lis: [
         `In this page, I would show you what I've learnt in Front End field.
-        Making notes during study is always my learning habbit.
-        Not to write everything down but to stimulate my memory.
-        It's rare for me to totally forget what i have learnt,
-        so when i can't remember any detials, I can also look back to my notes`
+        I followed system courses on the Internet, coming with both lectures and practice.
+        And here I show you my hand write notes and the key points I've leant.`
       ],
       background: ''
     },
@@ -24,11 +22,17 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/HTML.png')
     },
     {
-      title: 'aba',
+      title: 'I kind like these little things, make web more colorful',
       lis: [
-
+        'Syntax for Embedded, External and Inline CSS',
+        'Selector',
+        'Properties and corresponding Values and performances',
+        'Features: Inheritance, Specificity, Priority...',
+        'Pseudo Elements',
+        'Float, Position',
+        'Some common sense in CSS'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/CSS.png')
     },
     {
       title: 'aba',
