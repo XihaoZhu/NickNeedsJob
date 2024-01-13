@@ -9,7 +9,6 @@
     background-color: rgba(132,133,135);
     width: 35vw;
     height: 40vw;
-    border: solid white 0.2vw;
     img {
       z-index: 2;
       position: absolute;
@@ -44,7 +43,7 @@
       font-weight: 600;
       text-shadow: 0 -0.1vw white;
       background-image: url('../../../assets/images/light.png');
-      background-size: contain;
+      background-size: 100% 100%;
       span {
         cursor: pointer;
         color: white;
@@ -76,7 +75,6 @@
     border-radius: 3vw;
     background-color: rgba(132,133,135);
     width: 35vw;
-    border: solid white 0.2vw;
     height: 40vw;
     img {
       z-index: 2;
@@ -112,7 +110,7 @@
       font-weight: 600;
       text-shadow: 0 -0.1vw white;
       background-image: url('../../../assets/images/light.png');
-      background-size: contain;
+      background-size: 100% 100%;
       span {
         cursor: pointer;
         color: white;
