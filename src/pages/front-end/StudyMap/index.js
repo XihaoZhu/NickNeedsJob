@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import './index.scss'
 import classNames from 'classnames'
 
-const StudyMap = () => {
+const StudyMap = ({ changeWhichOne }) => {
   const [whichActive, setWhichActive] = useState(0)
   const OnActive = (index) => {
     setWhichActive(index)
+    changeWhichOne(index)
   }
   const content = [
     'start',
