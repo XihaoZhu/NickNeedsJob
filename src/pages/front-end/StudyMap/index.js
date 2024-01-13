@@ -12,7 +12,7 @@ const StudyMap = ({ changeWhichOne }) => {
     'start',
     'HTML',
     'CSS',
-    'CSS for Mobile',
+    'Mobile Response',
     'JavaScript',
     'Git',
     'AJAX',

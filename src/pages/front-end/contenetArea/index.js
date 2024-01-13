@@ -35,11 +35,16 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/CSS.png')
     },
     {
-      title: 'aba',
+      title: 'More CSS knowledge and mobile responsing',
       lis: [
-
+        'transform',
+        'animation',
+        'two strategies for mobile responsing: rem and vw/vh',
+        'Flex Layout',
+        'Responsing Layout (using @media)',
+        'key advantages and basic use of Less'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/Mobile.png')
     },
     {
       title: 'aba',
