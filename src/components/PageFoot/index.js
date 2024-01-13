@@ -1,9 +1,9 @@
 import './index.scss'
 import React from 'react'
 
-const PageFoot = () => {
+const PageFoot = ({ HeadColor }) => {
   return (
-    <div className='mostOut'>
+    <div className='mostOut' style={{ backgroundColor: HeadColor || 'rgb(178, 187, 206)' }}>
       <div className='logo'></div>
       <div className='decoration'></div>
       <div className='contact'>

@@ -1,5 +1,4 @@
 .StudyMap {
-  margin-top: 2vw;
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -14,6 +13,7 @@
     text-align: center;
     font-size: 1vw;
     border-radius: 0.2vw;
+    cursor: pointer;
     &::before {
       content: '';
       position: absolute;
