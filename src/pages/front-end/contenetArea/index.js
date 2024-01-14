@@ -7,7 +7,7 @@ const ContentArea = ({ whichOne }) => {
       title: 'My study history for Front End.',
       lis: [
         `In this page, I would show you what I've learnt in Front End field.
-        I followed system courses on the Internet, coming with both lectures and practice.
+        I followed system courses on the Internet, coming with both lectures and practices for all key points.
         And here I show you my hand write notes and the key points I've leant.`,
         'I can\'t remember all I learnt actually, but remember what I learnt and is able to look it up if could not remember the detail and achieve the function.'
       ],
@@ -82,11 +82,16 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/NodeJs.png')
     },
     {
-      title: 'aba',
+      title: 'Vue2 is the first structure I learnt, for the possible maintainess for old projects',
       lis: [
-
+        'Unique attributes in Vue2: v-model,v-if,v-html ...',
+        'data, methods, computed, watch in Vue2',
+        'Life cycle',
+        'component',
+        'router',
+        'basic data communication (props, event bus...) then Vuex'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/Vue2.png')
     },
     {
       title: 'aba',

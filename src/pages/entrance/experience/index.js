@@ -77,13 +77,15 @@ const Experience = ({ offerWhere1, windowWidth }) => {
           Undergranduate:<br/>
           Main courses were around mathmatics and physics.
           Logical thinking was trianed, improved myself in how to learn.
+          Gained team working experiences.
           Besides the theoritical learning, also got chances leanring relative skills.
           (Check in Core Skills - others for more information)
         </div>
         <div className='extraIntern' style={{ opacity: whichKeyword[1] }}>
           Master:<br/>
-          An extension for my undergranduate study.
-          More relative skills trained.
+          First time being abroad alone, new environment and new chanllanges.
+          An extension for my undergranduate study (physics and mathmatics still).
+          More new relative skills trained.
           (Also check in Core Skills - others for more information)
         </div>
         {/* main content */}
