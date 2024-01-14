@@ -94,11 +94,13 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/Vue2.png')
     },
     {
-      title: 'aba',
+      title: 'An improvement on Vue2, I feel it\'s easier to use',
       lis: [
-
+        'from options API in Vue2 to composition API in vue3',
+        'Besides data communication larnt in Vue2, Provide and Inject new added',
+        'Pinia for data management'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/Vue3.png')
     },
     {
       title: 'aba',
