@@ -47,11 +47,13 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/Mobile.png')
     },
     {
-      title: 'aba',
+      title: 'Besides the courses and 43 pages notes, I also spent time finished JavaScript Algorithms and Data Structures in \'FreeCodeCamp\'',
       lis: [
-
+        'It\'s kind hard to list the key points here.',
+        'As too many things are covered.',
+        'Allow me to sneak in a little moment of laziness, if you may  :p'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/JS.png')
     },
     {
       title: 'aba',
