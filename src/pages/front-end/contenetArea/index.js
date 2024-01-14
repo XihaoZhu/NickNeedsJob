@@ -73,11 +73,13 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/Ajax.png')
     },
     {
-      title: 'aba',
+      title: 'Starting using NodeJs give me an illution of I am already a front end engineer',
       lis: [
-
+        'basic using of NodeJs for Front End development',
+        'Recognizing the environment files',
+        'learnt Webpack and one way to apply CDN'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/NodeJs.png')
     },
     {
       title: 'aba',
