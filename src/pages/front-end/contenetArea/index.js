@@ -103,16 +103,20 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/Vue3.png')
     },
     {
-      title: 'aba',
+      title: 'Feel Vue3 more convinient, but heard this more popular in UK, so I bult this project with React',
       lis: [
-
+        'basic functions',
+        'data communication:props, state lifting, context',
+        'Redux for data management',
+        'react router',
+        'hook:useEffect, useMemo, useCallback, customise...'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/react.png')
     },
     {
-      title: 'aba',
+      title: 'Js with type',
       lis: [
-
+        'learning'
       ],
       background: 'aba'
     }
