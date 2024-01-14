@@ -8,7 +8,8 @@ const ContentArea = ({ whichOne }) => {
       lis: [
         `In this page, I would show you what I've learnt in Front End field.
         I followed system courses on the Internet, coming with both lectures and practice.
-        And here I show you my hand write notes and the key points I've leant.`
+        And here I show you my hand write notes and the key points I've leant.`,
+        'I can\'t remember all I learnt actually, but remember what I learnt and is able to look it up if could not remember the detail and achieve the function.'
       ],
       background: ''
     },
@@ -56,18 +57,20 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/JS.png')
     },
     {
-      title: 'aba',
+      title: 'What really saved me during build this web',
       lis: [
-
+        'Basic use of git'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/Git.png')
     },
     {
-      title: 'aba',
+      title: 'I would say this part is more learning axios than basic AJAX',
       lis: [
-
+        'Firstly learnt basic XMLhttpRequest',
+        'Then soon forgot it and get boiled by axios XD',
+        'basic use of axios, Interceptor, Promise to prevent call back hell ...'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/Ajax.png')
     },
     {
       title: 'aba',
