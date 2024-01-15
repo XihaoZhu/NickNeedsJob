@@ -4,7 +4,7 @@ import './index.scss'
 const Screen = () => {
   return (
     <div className="Screen">
-      我是screen
+      <img style={{ backgroundImage: `url(${require('../../../assets/Blender/example1.png')})` }}></img>
     </div>
   )
 }
