@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './index.scss'
 import CoreSkillHead from '@/components/CoreSkillHead'
 import RightList from './RightList'
@@ -9,13 +9,17 @@ import PageFoot from '@/components/PageFoot'
 const Blender = () => {
   const whichPage = 'Blender'
   const HeadColor = '#FFB578'
+  const [showWhich, setShowWhich] = useState(-1)
+  function setWhich (which) {
+    setShowWhich(which)
+  }
   return (
     <>
     <CoreSkillHead whichPage={whichPage} HeadColor={HeadColor}></CoreSkillHead>
     <div className='Blender'>
-      <LeftList></LeftList>
-      <Screen></Screen>
-      <RightList></RightList>
+      <LeftList setWhich={setWhich}></LeftList>
+      <Screen showWhich={showWhich}></Screen>
+      <RightList setWhich={setWhich}></RightList>
     </div>
     <PageFoot HeadColor={HeadColor}></PageFoot>
     </>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 
-const List = () => {
+const LeftList = ({ setWhich }) => {
   const fromCourse = [
     require('../../../assets/Blender/example1.png'),
     require('../../../assets/Blender/example2.png'),
@@ -12,15 +12,16 @@ const List = () => {
     require('../../../assets/Blender/example7.png'),
     require('../../../assets/Blender/example8.png')
   ]
+
   return (
     <div className="LeftList">
       {fromCourse.map((item, index) => {
         return (
-      <div key={index} className='example' style={{ backgroundImage: `url(${item})`, backgroundSize: 'cover' }}>
+      <div key={index} className='example' style={{ backgroundImage: `url(${item})`, backgroundSize: 'cover' }} onMouseEnter={() => setWhich(index)} onMouseLeave={() => setWhich(-1)}>
       </div>)
       })}
     </div>
   )
 }
 
-export default List
+export default LeftList
