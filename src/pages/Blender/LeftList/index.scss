@@ -1,4 +1,16 @@
 .LeftList {
   // background-color: pink;
   flex: 2;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  .example {
+    width: 10vw;
+    height: 8vw;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: -0.2vw 0.2vw 0.2vw black;
+    }
+  }
 }
