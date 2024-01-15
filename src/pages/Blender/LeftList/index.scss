@@ -1,5 +1,4 @@
 .LeftList {
-  // background-color: pink;
   flex: 2;
   display: flex;
   flex-flow: wrap;
@@ -12,5 +11,6 @@
       transform: scale(1.1);
       box-shadow: -0.2vw 0.2vw 0.2vw black;
     }
+    cursor: pointer;
   }
 }
