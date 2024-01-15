@@ -1,11 +1,14 @@
 import React from 'react'
 import './index.scss'
 
-const Screen = () => {
+const Screen = ({ showWhich }) => {
+  const list = [
+    require('../../../assets/Blender/example1.png')
+  ]
   return (
     <>
     <div className="Screen">
-      <img src={require('../../../assets/Blender/example1.png')}></img>
+      <img src={list[0]}></img>
     </div>
     </>
   )
