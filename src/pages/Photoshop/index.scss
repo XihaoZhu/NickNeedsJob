@@ -5,10 +5,32 @@
   .content{
     position: absolute;
     width: 30%;
-    height: 30%;
-    top: 40%;
-    left: 10%;
-    background-color: red;
-    transform: rotateZ(15deg);
+    height: 50%;
+    top: 35%;
+    left: 5%;
+    // background-color: red;
+    transform-origin: 100% 100%;
+    transform: rotateZ(10deg);
+    font-size: 1vw;
+    font-weight: 700;
+    color: #5F979E;
+    text-shadow: 0.1vw 0.1vw 0.5vw white;
+  }
+  .PicCountainer{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 35%;
+    right: 5%;
+    transform-origin: 0 100%;
+    transform: rotateZ(-10deg);
+    display: flex;
+    flex-direction: row;
+    div { 
+      list-style: none;
+      width: 25%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
 }

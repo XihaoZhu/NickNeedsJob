@@ -3,12 +3,15 @@ import React, { useEffect, useRef } from 'react'
 
 const Title = () => {
   const description = useRef(null)
-  const str = `What you are viewing now is a website produced by Nick himself, aiming to find a <br/>
-  position in the front-end field. This website is built with a React structure <br/>
-  and is designed for desktop devices. Click <a href=''>here</a> to view the <br/>
-  website built with Vue for mobile devices. Click <br/>
-  <a href=''>here</a> to download the files in the <br/>
-  developing environment.`
+  const str = `Hi here is Nick, what you are viewing now is the website built to introduce himself. This project <br/>
+               is done by Nick on his own with front end structure React. He did all the work, from designs <br/>
+               to codes. (That's why the design may bot look fancy XD) He used no any components <br/>
+               from third party but cleared the default style, only at this page, with <br/>
+               bootstrap. (He planned to use bootstrap at beginning but then <br/>
+               determined wrote all codes himself, but the default style <br/>
+               already get influenced and have to be kept.) <br/>
+               <a href=''>Here</a> you can download the <br/>
+               developing files for checking.`
   let i = 0
   function divTyping (target) {
     if (i <= str.length) {
@@ -30,12 +33,13 @@ const Title = () => {
       <span>Nick Needs Jobs</span>
       </div>
       <div className='description' ref={description}>
-      {/* What you are viewing now is a website produced by Nick himself, aiming to find a <br/>
-      position in the front-end field. This website is built with a React structure <br/>
-      and is designed for desktop devices. Click <a href=''>here</a> to view the <br/>
-      website built with Vue for mobile devices. Click <br/>
-      <a href=''>here</a> to download the files in the <br/>
-      developing environment. */}
+      {/* Hi here is Nick, what you are viewing now is the website built to introduce himself.
+      This project is done by Nick on his own with front end structure React.
+      He did all the work from designs to codes.
+      (That's why it doesn't look fancy XD)
+      He used no any components from third party but cleared the default style, only at this page, with bootstrap.
+      (He planned to use bootstrap at beginning but then determined write all codes himself, but the default style already get influenced and have to be kept.)
+      <a href=''>Here</a> you can download the developing files for checking */}
       </div>
     </div>
   )
