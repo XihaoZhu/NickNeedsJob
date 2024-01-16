@@ -6,17 +6,18 @@
     width: 78vw;
     display: flex;
     gap: 2vw;
-    flex: 5 1;
     justify-content: space-between;
     .FrontEnd {
       background-image: url('../../../assets/images/LogoSlide.png');
       background-size: 100% 100%;
-      flex: 1 1;
+      height: 100%;
+      flex: 1;
       border: 0.1vw solid black;
       border-radius: 2vw;
     }
     .Blender {
-      flex: 1 1;
+      height: 100%;
+      flex: 1;
       background-image: url('../../../assets/images/blenderSlide.png');
       background-size: 100% 100%;
       background-color: white;
@@ -24,14 +25,16 @@
       border-radius: 2vw;
     }
     .Photoshop {
-      flex: 1 1;
+      height: 100%;
+      flex: 1;
       background-image: url('../../../assets/images/PsSlide.png');
       background-size: 100% 100%;
       border: 0.1vw solid black;
       border-radius: 2vw;
     }
     .Others {
-      flex: 1 1;
+      height: 100%;
+      flex: 1;
       background-image: url('../../../assets/images/OthersSlide.png');
       background-size: 100% 100%;
       border: 0.1vw solid rgb(255, 255, 255);

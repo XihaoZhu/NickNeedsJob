@@ -1,8 +1,8 @@
 .contentArea {
   width: 50vw;
-  height: 30vw;
+  height: calc(100vh - 13vw);
   position: absolute;
-  top: 10vw;
+  top: 5vw;
   right: 15vw;
   border: dashed 0.5vw black;
   border-radius: 2vw;

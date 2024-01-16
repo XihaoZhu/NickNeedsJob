@@ -13,12 +13,14 @@ const FrontEnd = () => {
     setWhichOne(num)
   }
   return (
+    <>
+    <CoreSkillHead whichPage={whichPage} HeadColor={HeadColor}></CoreSkillHead>
     <div className='FrontEnd'>
-      <CoreSkillHead whichPage={whichPage} HeadColor={HeadColor}></CoreSkillHead>
       <StudyMap changeWhichOne={changeWhichOne}></StudyMap>
       <ContentArea whichOne={whichOne}></ContentArea>
-      <PageFoot HeadColor={HeadColor}></PageFoot>
     </div>
+    <PageFoot HeadColor={HeadColor}></PageFoot>
+    </>
   )
 }
 
