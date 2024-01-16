@@ -8,7 +8,7 @@ const Title = () => {
                to codes. (That's why the design may bot look fancy XD) He used no any components <br/>
                from third party but cleared the default style, only at this page, with <br/>
                bootstrap. (He planned to use bootstrap at beginning but then <br/>
-               determined wrote all codes himself, but the default style <br/>
+               determined to write all codes himself, but the default style <br/>
                already get influenced and have to be kept.) <br/>
                <a href=''>Here</a> you can download the <br/>
                developing files for checking.`
@@ -16,7 +16,7 @@ const Title = () => {
   function divTyping (target) {
     if (i <= str.length) {
       target.innerHTML = str.slice(0, i++) + '_'
-      setTimeout(() => divTyping(target), 50)
+      setTimeout(() => divTyping(target), 25)
     } else {
       target.innerHTML = str
     }

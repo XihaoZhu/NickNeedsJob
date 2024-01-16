@@ -32,7 +32,7 @@ const Entrance = () => {
     <Title/>
     <Experience offerWhere1={offerWhere1} windowWidth={windowWidth}/>
     <CoreSkills offerWhere2={offerWhere2} windowWidth={windowWidth}/>
-    <PageFoot/>
+    <PageFoot HeadColor={'rgb(250,199,183)'}/>
   </div>
   )
 }

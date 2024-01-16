@@ -7,7 +7,7 @@ import PageFoot from '@/components/PageFoot'
 
 const FrontEnd = () => {
   const whichPage = 'Front-End'
-  const HeadColor = 'rgb(209,217,224)'
+  const HeadColor = '#FF7363'
   const [whichOne, setWhichOne] = useState(0)
   function changeWhichOne (num) {
     setWhichOne(num)
