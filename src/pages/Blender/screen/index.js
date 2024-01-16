@@ -14,7 +14,7 @@ const Screen = ({ showWhich }) => {
     require('../../../assets/BlenderPage/example9.png'),
     require('../../../assets/BlenderPage/example10.png'),
     require('../../../assets/BlenderPage/example11.png'),
-    require('../../../assets/BlenderPage/example9.png')
+    require('../../../assets/BlenderPage/example12.gif')
   ]
   return (
     <>
