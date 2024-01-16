@@ -17,7 +17,7 @@ const CoreSkills = ({ offerWhere2, windowWidth }) => {
       <div className='container'>
         <div className='FrontEnd' onClick={() => { navi('/FrontEnd'); top() }}></div>
         <div className='Blender' onClick={() => { navi('/Blender'); top() }}></div>
-        <div className='Photoshop'></div>
+        <div className='Photoshop' onClick={() => { navi('/PhotoShop'); top() }}></div>
         <div className='Others'></div>
       </div>
     </div>

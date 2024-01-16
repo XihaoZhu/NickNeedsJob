@@ -1,0 +1,14 @@
+.PhotoShop {
+  position: relative;
+  height: calc(100vh - 13vw);
+  background-color: #F4E2C5;
+  .content{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 40%;
+    left: 10%;
+    background-color: red;
+    transform: rotateZ(15deg);
+  }
+}
