@@ -11,7 +11,7 @@ const PhotoShop = () => {
     <CoreSkillHead whichPage={whichPage} HeadColor={HeadColor}></CoreSkillHead>
     <div className='PhotoShop'>
       <div className='content'>
-        Firstly I have to make it clear that I&apos;m totally not an export in PhotoShop.<br/>
+        Firstly I have to make it clear that I&apos;m totally not an expert in PhotoShop.<br/>
         At the begining I did follow some system courses which I still benifit from, while it was alreay years ago and wasn&apos;t advancing knowledge but basic.<br/>
         It&apos;s kind of brave for me creating a separate page for Ps in my project, as I still believe I have some knoledge about it.<br/>
         What I can do with Ps :<br/>
