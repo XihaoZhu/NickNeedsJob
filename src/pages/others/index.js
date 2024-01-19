@@ -12,17 +12,19 @@ const Others = () => {
       title: 'Modeling'
     },
     {
-      background: '',
-      words: '',
+      background: require('../../assets/OthersPic/snowTree.gif'),
+      words: 'Matlab is one of the courses I experienced both in underguanduate and master. Here is a tree in snow I bult in matlab, it\' not the most difficult work I\'ve done in matlab, but it\'s one of the most interesting ones. Mostly matlab was used for analyze data. I was also taught the basic use of simulink in MATLAB (for a course called Control of Aerospace system)',
       title: 'Matlab'
     },
     {
-      background: '',
-      words: ''
+      background: require('../../assets/OthersPic/Ansys.png'),
+      words: 'A course in both undergruaduate and master too, focused on the 2D and 3D simulation about aero dynamics. And my graduation essay for undergruaduate was based on simulations in this software. Here shows you something appeared in that essay.',
+      title: 'Ansys Workbench'
     },
     {
-      background: '',
-      words: ''
+      background: require('../../assets/OthersPic/casetrue.png'),
+      words: 'This is something new I learnt in master. I built the code in Labview to be run in a FPGA for a coursework. The experiment was about using hotwire to measure the wind in a wind tube. And the function was to collect and convert the electric signals in a very high frequence. This picture is a case for what I worte there',
+      title: 'Labview'
     }
   ]
   return (
