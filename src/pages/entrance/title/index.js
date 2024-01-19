@@ -6,11 +6,11 @@ const Title = () => {
   const str = `Hi here is Nick, what you are viewing now is the website built to introduce himself. This project <br/>
                is done by Nick on his own with front end structure React. He did all the work, from designs <br/>
                to codes. (That's why the design may bot look fancy XD) He used no any components <br/>
-               from third party but cleared the default style, only at this page, with <br/>
-               bootstrap. (He planned to use bootstrap at beginning but then <br/>
+               from third-party library but cleared the default style with bootstrap, only at<br/>
+               this page. (He planned to use bootstrap at beginning but then <br/>
                determined to write all codes himself, but the default style <br/>
                already get influenced and have to be kept.) <br/>
-               <a href=''>Here</a> you can download the <br/>
+               <a href='github.com/XihaoZhu/NickNeedsJob'>Here</a> you can download the <br/>
                developing files for checking.`
   let i = 0
   function divTyping (target) {
