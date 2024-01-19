@@ -11,7 +11,7 @@ const ContentArea = ({ whichOne }) => {
         And here I show you my hand write notes and the key points I've leant.`,
         'I can\'t remember all I learnt actually, but remember what I learnt and is able to look it up if could not remember the detail and achieve the function.'
       ],
-      background: ''
+      background: require('../../../assets/notes/blank.png')
     },
     {
       title: 'The begining of my front end study.',
@@ -114,11 +114,15 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/react.png')
     },
     {
-      title: 'Js with type',
+      title: 'Js with restricted data type',
       lis: [
-        'learning'
+        'Type Annotation, how to write and what are they',
+        'extends, intersection',
+        'Generic Utillity Type',
+        'Type declaration file',
+        'basic use in React'
       ],
-      background: 'aba'
+      background: require('../../../assets/notes/typeScript.png')
     }
   ]
 
