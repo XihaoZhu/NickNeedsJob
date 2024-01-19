@@ -7,16 +7,14 @@ const Others = () => {
   const HeadColor = 'rgb(221,208,192)'
   const content = [
     {
-      background: require('../../assets/images/NNJ_logo.png'),
-      words: `Main courses were around mathmatics and physics.
-      Logical thinking was trianed, improved myself in how to learn.
-      Gained team working experiences.
-      Besides the theoritical learning, also got chances leanring relative skills.
-      (Check in Core Skills - others for more information)`
+      background: require('../../assets/OthersPic/modeling.png'),
+      words: 'This is one of 3D printing work for the feet I built during the internship. In undergranduate, I had a course of 3D modeling software 3Dexperience, I also self-trained the basic using of Solidworks. Blender, which was seperately showed before, is also a modeling software, while it more used for visual things not industry.',
+      title: 'Modeling'
     },
     {
       background: '',
-      words: ''
+      words: '',
+      title: 'Matlab'
     },
     {
       background: '',
@@ -34,6 +32,7 @@ const Others = () => {
       {content.map((item, index) => (
         <div className='item' key={index}>
         <div className='background' style={{ backgroundImage: `url(${item.background})` }}></div>
+        <h3>{item.title}</h3>
         <div className='words'>{item.words}</div>
         </div>
       ))}
