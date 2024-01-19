@@ -10,7 +10,7 @@ const Title = () => {
                this page. (He planned to use bootstrap at beginning but then <br/>
                determined to write all codes himself, but the default style <br/>
                already get influenced and have to be kept.) <br/>
-               <a href='github.com/XihaoZhu/NickNeedsJob'>Here</a> you can download the <br/>
+               <a href='https://github.com/XihaoZhu/NickNeedsJob'>Here</a> you can download the <br/>
                developing files for checking.`
   let i = 0
   function divTyping (target) {
