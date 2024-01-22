@@ -7,9 +7,9 @@ const ContentArea = ({ whichOne }) => {
       title: 'My study history for Front End.',
       lis: [
         `In this page, I would show you what I've learnt in Front End field.
-        I followed system courses on the Internet, coming with both lectures and practices for all key points.
-        And here I show you my hand write notes and the key points I've leant.`,
-        'I can\'t remember all I learnt actually, but remember what I learnt and is able to look it up if could not remember the detail and achieve the function.'
+        I followed systematic courses on the Internet, coming with both lectures and corresponding practices.
+        And here I put my hand write notes as a background with some key points I've leant.`,
+        'I can\'t remember all details about what I\'ve learnt honestly, but remember what I learnt and am able to look it up and achieve it in work.'
       ],
       background: require('../../../assets/notes/blank.png')
     },
@@ -42,7 +42,7 @@ const ContentArea = ({ whichOne }) => {
         'animation',
         'two strategies for mobile responsing: rem and vw/vh',
         'Flex Layout',
-        'Responsing Layout (using @media)',
+        'Responsing Layout (with @media)',
         'key advantages and basic use of Less'
       ],
       background: require('../../../assets/notes/Mobile.png')
@@ -51,8 +51,8 @@ const ContentArea = ({ whichOne }) => {
       title: 'Besides the courses and 43 pages notes, I also spent time finished JavaScript Algorithms and Data Structures in \'FreeCodeCamp\'',
       lis: [
         'It\'s kind hard to list the key points here.',
-        'As too many things are covered.',
-        'Allow me to sneak in a little moment of laziness, if you may  :p'
+        'As too many things were covered.',
+        'Please allow me to sneak in a little moment of laziness  :p'
       ],
       background: require('../../../assets/notes/JS.png')
     },
@@ -77,7 +77,7 @@ const ContentArea = ({ whichOne }) => {
       lis: [
         'basic using of NodeJs for Front End development',
         'Recognizing the environment files',
-        'learnt Webpack and one way to apply CDN'
+        'learnt Webpack and one way to set CDN'
       ],
       background: require('../../../assets/notes/NodeJs.png')
     },

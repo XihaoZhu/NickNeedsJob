@@ -35,21 +35,21 @@ const Experience = ({ offerWhere1, windowWidth }) => {
         {/* when the other light on and hovered on key words */}
         <div className='extraIntern' style={{ opacity: whichKeyword[2] }}>
           Telemarketing:<br/>
-          A part-time job as a telemarketing in a children&apos;s art training institution.
+          A part-time job as a telemarketer in a children&apos;s art training institution.
           Not doing scam! But to invite parents taking their children to try the free trial lesson.
-          Sometimes leafleting in street too.
-          Learnt skills how to communicate with custormers and advertise during the work.
+          Sometimes leafleted in street too.
+          Learnt skills how to communicate with custormers and advertisement during the work.
         </div>
         <div className='extraIntern' style={{ opacity: whichKeyword[3] }}>
           In a barber shop:<br/>
-          Worked in barber shop as an apprentice for a month. Learnt how to wash hair and basic massage involved in.
+          Worked in barber shop as an apprentice for a month. Learnt how to wash hair and basic massage skills for head included too.
           Trained my patience <br/>
           ...and finger flexibility? XD
         </div>
         <div className='extraIntern' style={{ opacity: whichKeyword[4] }}>
           Had a two months internship in this company.
-          One of the two main roles is operating machine, communicate with remote team to fine-tune it. The other is designing and built a pair of high-arch models and a pair of flat-foot models for testing the machine.
-          Leant communication between different teams and practised my modeling skill.
+          One of the two main roles was operating machine, communicate with remote team to fine-tune it. The other was designing and built a pair of high-arch models and a pair of flat-foot models for testing the machine.
+          Learnt communication between different teams and practised his modeling skill.
         </div>
         {/* main content */}
         <div className='EducationHistory' style={{ opacity: isOn === 1 ? 0.8 : 0 }}>
@@ -76,16 +76,16 @@ const Experience = ({ offerWhere1, windowWidth }) => {
         <div className='extraIntern' style={{ opacity: whichKeyword[0] }}>
           Undergranduate:<br/>
           Main courses were around mathmatics and physics.
-          Logical thinking was trianed, improved myself in how to learn.
+          Logical thinking was trianed, improved himself in how to learn.
           Gained team working experiences.
           Besides the theoritical learning, also got chances leanring relative skills.
           (Check in Core Skills - others for more information)
         </div>
         <div className='extraIntern' style={{ opacity: whichKeyword[1] }}>
           Master:<br/>
-          First time being abroad alone, new environment and new chanllanges.
-          An extension for my undergranduate study (physics and mathmatics still).
-          More new relative skills trained.
+          First time being abroad, new environment and new chanllanges.
+          An extension for my undergranduate study (physics and mathmatics still mostly).
+          More relative skills were trained.
           (Also check in Core Skills - others for more information)
         </div>
         {/* main content */}

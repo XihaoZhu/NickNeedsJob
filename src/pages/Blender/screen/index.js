@@ -25,8 +25,8 @@ const Screen = ({ showWhich }) => {
         <div className='introduction'>
           <h2>Some practices I have done</h2>
           <br/>
-          <span> Here I would show you some practices I have done with blender. Unfortunately for quicker loading, files qualities here are all under compression. <br/><br/>
-            On the left hand side, there shows 8 works I produced, following instructions on Internet but also combined my own ideas. <br/><br/>
+          <span> Here I would show you some practices I have done with blender. Unfortunately for quicker loading, files qualities here are all under compression and are in GIF format, but you still need to wait for seconds for the loading. <br/><br/>
+            On the left hand side, there show 8 works I produced, followed instructions on Internet but also combined with my own ideas. <br/><br/>
             On right hand side, I selected 4 original works : Refer to the classic Chanel N°5; Refer to a cup I own; hair material and practice of liquid.
           </span>
         </div>

@@ -8,12 +8,12 @@ const Others = () => {
   const content = [
     {
       background: require('../../assets/OthersPic/modeling.png'),
-      words: 'This is one of 3D printing work for the feet I built during the internship. In undergranduate, I had a course of 3D modeling software 3Dexperience, I also self-trained the basic using of Solidworks. Blender, which was seperately showed before, is also a modeling software, while it more used for visual things not industry.',
+      words: 'This is one of 3D printing work for the feet I built during the internship. In undergranduate, I had a course of 3D modeling software 3Dexperience, I also self-trained the basic using of Solidworks. Blender, which was seperately showed before, is also a modeling software, while it is more used for visual aspect not industry design.',
       title: 'Modeling'
     },
     {
       background: require('../../assets/OthersPic/snowTree.gif'),
-      words: 'Matlab is one of the courses I experienced both in underguanduate and master. Here is a tree in snow I bult in matlab, it\' not the most difficult work I\'ve done in matlab, but it\'s one of the most interesting ones. Mostly matlab was used for analyze data. I was also taught the basic use of simulink in MATLAB (for a course called Control of Aerospace system)',
+      words: 'Matlab is one of the courses I experienced both in underguanduate and master. Here is a tree in snow I bult in matlab, it\' not the most difficult work I\'ve done in matlab, but it\'s one of the most interesting ones. Mostly matlab was used for data analysis. I was also taught the basic use of simulink in MATLAB (for a course called Control of Aerospace system)',
       title: 'Matlab'
     },
     {
@@ -23,7 +23,7 @@ const Others = () => {
     },
     {
       background: require('../../assets/OthersPic/casetrue.png'),
-      words: 'This is something new I learnt in master. I built the code in Labview to be run in a FPGA for a coursework. The experiment was about using hotwire to measure the wind in a wind tube. And the function was to collect and convert the electric signals in a very high frequence. This picture is a case for what I worte there',
+      words: 'This is something new I learnt in master. I built this code in Labview to be run in a FPGA for a coursework. The experiment was about using hotwire to measure the wind in a wind tube. And the function was to collect and convert the electric signals in a very high frequence. This picture is a case for what I worte there',
       title: 'Labview'
     }
   ]
