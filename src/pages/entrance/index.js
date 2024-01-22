@@ -26,6 +26,12 @@ const Entrance = () => {
     setWhere2(num)
   }
 
+  useEffect(() => {
+    if (window.innerHeight > window.innerWidth) {
+      alert('Can you check this website on a desktop device? Or at least an ipad? If not please at least check it with your phone horizental.')
+    }
+  }, [])
+
   return (
   <div className='entrance'>
     <Head where1={where1} where2={where2}/>
