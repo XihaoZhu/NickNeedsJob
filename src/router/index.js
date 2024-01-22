@@ -5,6 +5,7 @@ import FrontEnd from '@/pages/front-end'
 import Blender from '@/pages/Blender'
 import PhotoShop from '@/pages/Photoshop'
 import Others from '@/pages/others'
+import NotFound from '@/pages/404NotFound'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/Others',
     element: <Others></Others>
+  },
+  {
+    path: '*',
+    element: <NotFound></NotFound>
   }
 ])
 
