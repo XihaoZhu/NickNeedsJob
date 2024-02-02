@@ -5,7 +5,7 @@ const Title = () => {
   const description = useRef(null)
   const str = `Hi here is Nick, what you are viewing now is the website built to introduce himself. This project <br/>
                is done by Nick on his own with front end structure React. He did all the work, from designs <br/>
-               to codes. (That's why the design may not look fancy XD) He used no any components <br/>
+               to codes. (So plz forgive him if there is any tiny mistake) He used no any components <br/>
                from third-party library but cleared the default style with bootstrap, only at<br/>
                this page. (He planned to use bootstrap at beginning but then <br/>
                determined to write all codes himself, but the default style <br/>
