@@ -20,7 +20,8 @@ const StudyMap = ({ changeWhichOne }) => {
     'Vue2',
     'Vue3',
     'React',
-    'TypeScript'
+    'TypeScript',
+    'php and wordPress'
   ]
 
   return (
