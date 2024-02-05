@@ -131,7 +131,7 @@ const ContentArea = ({ whichOne }) => {
         My origina plan was self taught front-end skills and then find a job in this area,
         then learn back-end in spare time and become a full-stack.
         But I noticed some companies ask for front end developer with skills for wordpress. I explored a bit and learnt how to use it.
-        I bet that's not enough and what they want is develope the themes.
+        I bet that's not enough and what they want is develop the themes.
         So I keep exploreing, then found I need to learn php for that.
         Well as I haven't find a job yet and php is part of the plan anyway. So I'm working on it now.`
       ],
