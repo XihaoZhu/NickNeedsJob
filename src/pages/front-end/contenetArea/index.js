@@ -125,17 +125,22 @@ const ContentArea = ({ whichOne }) => {
       background: require('../../../assets/notes/typeScript.png')
     },
     {
-      title: 'It\'s something undergoing ',
+      title: 'First step in back end',
       lis: [
-        `IT's something out of plane actually.
-        My origina plan was self taught front-end skills and then find a job in this area,
-        then learn back-end in spare time and become a full-stack.
-        But I noticed some companies ask for front end developer with skills for wordpress. I explored a bit and learnt how to use it.
-        I bet that's not enough and what they want is develop the themes.
-        So I keep exploreing, then found I need to learn php for that.
-        Well as I haven't find a job yet and php is part of the plan anyway. So I'm working on it now.`
+        'Mostly for developing WordPress theme',
+        'Found it close to JS in some ways but express in a different way',
+        'Learnt basic commands for MYSQL in PHP, such as add delete modify and require.'
       ],
-      background: require('../../../assets/notes/blank.png')
+      background: require('../../../assets/notes/PHP.png')
+    },
+    {
+      title: 'To me it\'s like a framework specific to blogs',
+      lis: [
+        'Learnt basic things about develop themes in wordpress, the structure: home, post, single, function etc.',
+        'found it very convient if what you want is a blog, with so many powerful bult in structures and functions',
+        'To the source it\'s still about HTML CSS JS, and PHP perhanps XD'
+      ],
+      background: require('../../../assets/notes/WP.png')
     }
   ]
 

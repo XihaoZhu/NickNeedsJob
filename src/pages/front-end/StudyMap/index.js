@@ -21,7 +21,8 @@ const StudyMap = ({ changeWhichOne }) => {
     'Vue3',
     'React',
     'TypeScript',
-    'php and wordPress'
+    'php & MYSQL',
+    'WordPress'
   ]
 
   return (
