@@ -30,7 +30,6 @@ const Title = () => {
     <div className='Title'>
       <div className='logo'>
       <img src={require('src/assets/images/NNJ_logo.png')} className='logoImg'></img>
-      <span>Nick Needs Jobs</span>
       </div>
       <div className='description' ref={description}>
       {/* Hi here is Nick, what you are viewing now is the website built to introduce himself.
