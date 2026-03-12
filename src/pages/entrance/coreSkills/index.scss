@@ -1,13 +1,16 @@
 .CoreSkills {
   height: 35vw;
-  width:100vw;
+  width: 100vw;
   margin-bottom: 2vw;
+
   .container {
+    max-width: none !important;
     height: 35vw;
     width: 78vw;
     display: flex;
     gap: 2vw;
     justify-content: space-between;
+
     .FrontEnd {
       background-image: url('../../../assets/images/LogoSlide.png');
       background-size: 100% 100%;
@@ -16,6 +19,7 @@
       border: 0.1vw solid black;
       border-radius: 2vw;
     }
+
     .Blender {
       height: 100%;
       flex: 1;
@@ -25,6 +29,7 @@
       border: 0.1vw solid rgb(255, 255, 255);
       border-radius: 2vw;
     }
+
     .Photoshop {
       height: 100%;
       flex: 1;
@@ -33,6 +38,7 @@
       border: 0.1vw solid black;
       border-radius: 2vw;
     }
+
     .Others {
       height: 100%;
       flex: 1;
@@ -41,6 +47,7 @@
       border: 0.1vw solid rgb(255, 255, 255);
       border-radius: 2vw;
     }
+
     div:hover {
       transform: scale(1.05);
       transition: all 0.5s;
